@@ -70,14 +70,14 @@ Public Class frmHome
     Private Sub btnAsset_MouseHover(sender As Object, e As EventArgs) Handles btnAsset.MouseHover
         btnAsset.BackColor = Color.DarkOrange
     End Sub
+    Private Sub btnAsset_MouseLeave(sender As Object, e As EventArgs) Handles btnAsset.MouseLeave
+        btnAsset.BackColor = Color.Orange
+    End Sub
 
     Private Sub btnMap_MouseHover(sender As Object, e As EventArgs) Handles btnAsset.MouseHover
         btnMap.BackColor = Color.DarkOrange
     End Sub
 
-    Private Sub btnAsset_MouseLeave(sender As Object, e As EventArgs) Handles btnAsset.MouseLeave
-        btnAsset.BackColor = Color.Orange
-    End Sub
     Private Sub btnMap_MouseLeave(sender As Object, e As EventArgs) Handles btnMap.MouseLeave
         btnMap.BackColor = Color.Orange
     End Sub
